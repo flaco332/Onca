@@ -1,0 +1,63 @@
+# Local environments and caches
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+# Generated packages (the maintained spec is tracked)
+build/
+dist/
+release/
+public-snapshot/
+public-snapshot-v2/
+release-candidate/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.spec
+!OncaAlumnos.spec
+# Private audit and validation workspace
+.private/
+# User data, exports, certificates and backups
+data/
+control_alumnos/
+backups/
+exports/
+certificados/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.bak
+*.log
+*.tmp
+*.temp
+*.pem
+*.key
+*.pfx
+*.p12
+*.zip
+*.7z
+logs/
+.operation.lock
+# Unapproved local branding
+assets/onca.ico
+assets/onca.png
+make_ico.py
+# Local configuration
+.env
+.env.*
+!.env.example
+# Editors and operating system
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
