@@ -1,6 +1,6 @@
 # Build/audit tools; tests use unittest from the standard library.
 PyInstaller==6.20.0
-pyinstaller-hooks-contrib==2026.5
+pyinstaller-hooks-contrib==2026.8
 altgraph==0.17.5
 packaging==26.2
 setuptools==83.0.0
